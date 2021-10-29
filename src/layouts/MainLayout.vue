@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          My Project
+          Otávio
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
