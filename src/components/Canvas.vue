@@ -26,6 +26,7 @@ export default {
       };
 
       p5.draw = () => {
+        p5.frameRate(30);
         let terrain = [];
 
         flying -= 0.05;
