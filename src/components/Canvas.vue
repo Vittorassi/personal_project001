@@ -29,7 +29,7 @@ export default {
         p5.frameRate(30);
         let terrain = [];
 
-        flying -= 0.05;
+        flying -= 0.025;
 
         yOff = flying;
         
@@ -50,7 +50,7 @@ export default {
           yOff += 0.2;
         }
 
-        p5.background(0);
+        p5.clear();
         p5.stroke(255);
         p5.noFill();
 
